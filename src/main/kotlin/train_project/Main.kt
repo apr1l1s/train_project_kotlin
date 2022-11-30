@@ -3,8 +3,8 @@ package train_project
 //Функции:
 //добавление, изменение, удаление, сортировка, поиск, вывод на экран содержимого.
 //База данных электричек. Поля: вокзал, номер поезда, количество вагонов, тип (экспресс/обычный/спутник).
-import train_project.app.ConsoleHelper
+import train_project.app.App
 
 fun main(){
-    ConsoleHelper.start()
+    App.start()
 }
